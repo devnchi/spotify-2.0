@@ -1,11 +1,14 @@
 module.exports = {
+  mode: "jit",
   content: [
-    './src/components/**/*.{ts,tsx,js,jsx}', 
-    './src/pages/**/*.{ts,tsx,js,jsx}'
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
   ],
+  darkMode: false,
   theme: {
     extend: {},
   },
-  variants: {},
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }

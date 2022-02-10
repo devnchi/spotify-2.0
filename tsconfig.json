@@ -26,5 +26,5 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ]
+, "src/pages/api/[...nextauth].js", "src/pages/login.tsx", "hooks/useSpotify.js"  ]
 }
