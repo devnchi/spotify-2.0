@@ -9,7 +9,6 @@ import {
 } from '@heroicons/react/outline'; 
 import { signOut, useSession } from 'next-auth/react';
 import { useEffect, useState } from 'react';
-import spotifyApi from '../lib/spotify';
 import useSpotify from '../hooks/useSpotify';
 import { useRecoilState } from 'recoil';
 import { playlistIdState }  from '../atoms/playlistAtoms';
